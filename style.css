@@ -70,7 +70,9 @@
   gap: 11.625rem;
   align-items: center;
 }
-
+.th1 {
+  display: none;
+}
 /* hero */
 
 .content-img {
@@ -325,6 +327,7 @@
 .new {
   display: none;
 }
+
 /* Media query */
 @media screen and (max-width: 576px) {
   .btn {
@@ -342,6 +345,17 @@
   .btn3 {
     padding: 10px;
     font-size: 0.7rem;
+  }
+  .th1 {
+    display: flex;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    cursor: pointer;
+  }
+  .th1 img {
+    width: 40px; /* Adjust the size of the icon */
+    height: auto;
   }
 
   .content {
